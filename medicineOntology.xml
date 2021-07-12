@@ -1,0 +1,1502 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology"
+     xml:base="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:medicineOntology="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology">
+        <rdfs:comment>by Siti Syahirah binti Ibrahim
+
+For Master of Computer Science (Web Technology)</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasChemicalEntityValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasChemicalEntityValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasDoctorCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasDoctorCategory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasDosageForm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasDosageForm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasDosageTerm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasDosageTerm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMDCCode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMDCCode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasParentMDC -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasParentMDC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ARFEN_250_SUPPOSITORIES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ARFEN_250_SUPPOSITORIES">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#AntimigraineMedicines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#AntimigraineMedicines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TherapeuticGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T1001XX"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T1001XX"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_MALAYSIA_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19984685_AR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T1001XX"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DUOPHARMA_M_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T1001XX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T1001XX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CHONG_PARK_MEDICAL_HALL_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CHONG_PARK_MEDICAL_HALL_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DHAMOL_TABLET_500MG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DHAMOL_TABLET_500MG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DUOPHARMA_M_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DUOPHARMA_M_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DosageTerm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DosageTerm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD. -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDAMAN_PHARMA_MANUFACTURING_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDAMAN_PHARMA_MANUFACTURING_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INFANT_SYRUP_UPHAMOL_120 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INFANT_SYRUP_UPHAMOL_120">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#AntimigraineMedicines"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MedicineForPainAndPalliativeCare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Injection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Injection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DosageTerm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOMEDIC_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOMEDIC_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100106 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100106">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T1001XX"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20014523_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_IBUPROFEN_TABLET_200MG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T1001XX"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962557_A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100114 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100114">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T1001XX"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20012745_ACE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T1001XX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T1001XX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910654_X -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910654_X">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910697_X -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910697_X">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912426_X -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912426_X">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912686_X -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912686_X">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19920359_X -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19920359_X">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19921172_X -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19921172_X">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19961333_XC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19961333_XC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962078_X -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962078_X">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962557_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962557_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19984685_AR -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19984685_AR">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20012745_ACE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20012745_ACE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20014523_A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20014523_A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20032439_X -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20032439_X">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MedicineForPainAndPalliativeCare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MedicineForPainAndPalliativeCare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TherapeuticGroup"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900103 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900103">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L9001XX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CHONG_PARK_MEDICAL_HALL_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962078_X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOOL_FEVER_SUSPENSION_120MG/5ML"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900104 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900104">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L9001XX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAPHARM_(M)_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910654_X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAMOL_SYRUP_120MG/5ML"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900105 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900105">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L9001XX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912686_X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INFANT_SYRUP_UPHAMOL_120"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L9001XX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L9001XX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200101 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200101">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S2001XX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DUOPHARMA_M_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910697_X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TEMPOL_SUPPOSITORY_250MG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200104 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200104">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S2001XX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDS_SERVICES_(MALAYSIA)_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20032439_X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#REMEDOL_250_SUPPOSITORIES"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200106 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200106">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S2001XX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOMEDIC_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19921172_X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#REMEDOL_250_SUPPOSITORIES"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S2001XX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S2001XX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100103 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100103">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T1001XX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_LOGISTICS_SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19961333_XC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PARACETAMOL_TABLET_500MG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100109 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100109">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T1001XX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SCANLAB_SENDIRIAN_BERHAD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19920359_X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ORALCET_TABLET"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100112 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100112">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T1001XX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912426_X"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DHAMOL_TABLET_500MG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T1001XX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T1001XX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ORALCET_TABLET -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ORALCET_TABLET">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Oral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Oral">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DosageTerm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PARACETAMOL_TABLET_500MG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PARACETAMOL_TABLET_500MG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_MALAYSIA_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_MALAYSIA_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_IBUPROFEN_TABLET_200MG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_IBUPROFEN_TABLET_200MG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_LOGISTICS_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_LOGISTICS_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_MANUFACTURING_BERHAD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_MANUFACTURING_BERHAD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#AntimigraineMedicines"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntity"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MedicineForPainAndPalliativeCare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_250_mg_Suppository -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_250_mg_Suppository">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_500_mg_Tablet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_500_mg_Tablet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#AntimigraineMedicines"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#REMEDOL_250_SUPPOSITORIES -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#REMEDOL_250_SUPPOSITORIES">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SCANLAB_SENDIRIAN_BERHAD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SCANLAB_SENDIRIAN_BERHAD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SM_PHARMACEUTICALS_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SM_PHARMACEUTICALS_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TEMPOL_SUPPOSITORY_250MG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TEMPOL_SUPPOSITORY_250MG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TherapeuticGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TherapeuticGroup"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAMOL_SYRUP_120MG/5ML -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAMOL_SYRUP_120MG/5ML">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAPHARM_(M)_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAPHARM_(M)_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDS_SERVICES_(MALAYSIA)_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDS_SERVICES_(MALAYSIA)_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOOL_FEVER_SUSPENSION_120MG/5ML -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOOL_FEVER_SUSPENSION_120MG/5ML">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_(MALAYSIA)_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A"/>
+        <medicineOntology:hasMDCCode rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN._BHD. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN._BHD.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A"/>
+        <medicineOntology:hasProductName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_(MALAYSIA)_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19984685_AR"/>
+        <medicineOntology:hasProductName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A"/>
+        <medicineOntology:hasProductName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A"/>
+        <medicineOntology:hasMDCCode rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100106">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20014523_A"/>
+        <medicineOntology:hasProductName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_IBUPROFEN_TABLET_200_MG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100114"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962557_A"/>
+        <medicineOntology:hasProductName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100114">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20012745_ACE"/>
+        <medicineOntology:hasProductName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962557_A -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962557_A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19984685_AR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19984685_AR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20012745_ACE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20012745_ACE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20014523_A -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20014523_A">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A"/>
+        <medicineOntology:hasMDCCode rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_IBUPROFEN_TABLET_200_MG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_IBUPROFEN_TABLET_200_MG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_MANUFACTURING_BERHAD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_MANUFACTURING_BERHAD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_250_mg_Suppository -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_250_mg_Suppository">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_500_mg_Tablet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_500_mg_Tablet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN._BHD. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN._BHD.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_(MALAYSIA)_SDN._BHD. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_(MALAYSIA)_SDN._BHD.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN._BHD. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN._BHD.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ARFEN_250_SUPPOSITORIES"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DHAMOL_TABLET_500MG"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INFANT_SYRUP_UPHAMOL_120"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ORALCET_TABLET"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PARACETAMOL_TABLET_500MG"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_IBUPROFEN_TABLET_200MG"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#REMEDOL_250_SUPPOSITORIES"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TEMPOL_SUPPOSITORY_250MG"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAMOL_SYRUP_120MG/5ML"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOOL_FEVER_SUSPENSION_120MG/5ML"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CHONG_PARK_MEDICAL_HALL_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DUOPHARMA_M_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDAMAN_PHARMA_MANUFACTURING_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOMEDIC_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_MALAYSIA_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_LOGISTICS_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SCANLAB_SENDIRIAN_BERHAD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SM_PHARMACEUTICALS_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAPHARM_(M)_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDS_SERVICES_(MALAYSIA)_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN_BHD"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100106"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100114"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900103"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900104"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900105"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200101"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200104"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200106"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100103"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100109"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100112"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_250_mg_Suppository"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_500_mg_Tablet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910654_X"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910697_X"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912426_X"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912686_X"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19920359_X"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19921172_X"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19961333_XC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962078_X"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962557_A"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19984685_AR"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20012745_ACE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20014523_A"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20032439_X"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
