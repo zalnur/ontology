@@ -80,7 +80,7 @@ def main():
 
     print(rows[0], "\n\n", rows[1])
 
-    originalMedicine = generateData(gsparql, row[0])
+    originalMedicine = generateData(gsparql, singleM)
     print(originalMedicine)
 
     x=1
