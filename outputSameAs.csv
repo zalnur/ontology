@@ -1,0 +1,8 @@
+Subject,Subject
+(rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100106'), rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108'))
+(rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105'), rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108'))
+(rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG'), rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG'))
+(rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103'), rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105'))
+(rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108'), rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100114'))
+(rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG'), rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG'))
+(rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG'), rdflib.term.URIRef('http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG'))

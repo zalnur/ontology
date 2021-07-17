@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <VSNode splits="0.625">
+        <HSNode splits="0.3598668280871671 0.6401331719128329">
+            <VSNode splits="0.625 0.375">
+                <HSNode splits="0.3125">
+                    <CNode>
+                        <Component label="Annotations">
+                            <Property id="pluginId" value="org.protege.editor.owl.OWLOntologyAnnotationsView"/>
+                        </Component>
+                    </CNode>
+                </HSNode>
+                <CNode>
+                    <Component label="Metrics">
+                        <Property id="pluginId" value="org.protege.editor.owl.OWLOntologyMetricsView"/>
+                    </Component>
+                </CNode>
+            </VSNode>
+            <VSNode splits="0.1875">
+                <HSNode splits="0.09375">
+                    <CNode>
+                        <Component label="Ontology imports">
+                            <Property id="pluginId" value="org.protege.editor.owl.OWLOntologyImportsTable"/>
+                        </Component>
+                        <Component label="Ontology Prefixes">
+                            <Property id="pluginId" value="org.protege.editor.owl.OWLOntologyPrefixesView"/>
+                        </Component>
+                        <Component label="General class axioms">
+                            <Property id="pluginId" value="org.protege.editor.owl.GeneralClassAxioms"/>
+                        </Component>
+                        <Component label="RDF/XML rendering">
+                            <Property id="pluginId" value="org.protege.editor.owl.RDFXML"/>
+                        </Component>
+                        <Component label="SPARQL query">
+                            <Property id="pluginId" value="org.protege.editor.owl.rdf.SparqlQueryView"/>
+                        </Component>
+                        <Component label="OWL/XML rendering">
+                            <Property id="pluginId" value="org.protege.editor.owl.OWLXML"/>
+                        </Component>
+                    </CNode>
+                </HSNode>
+            </VSNode>
+        </HSNode>
+    </VSNode>
+</layout>

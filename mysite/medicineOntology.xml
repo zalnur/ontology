@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology"
      xml:base="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology"
-     xmlns:g="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -9,12 +8,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:medicineOntology="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology">
-        <rdfs:comment>Created by Siti Syahirah binti Ibrahim
-For Master of Computer Science (Web Technology) thesis.
-Student ID: 2020559949
-
-The project aims foe public to have their own medical records system.</rdfs:comment>
-        <owl:versionInfo>1.0</owl:versionInfo>
+        <rdfs:comment>by Siti Syahirah binti Ibrahim
+            For Master of Computer Science (Web Technology)
+        </rdfs:comment>
     </owl:Ontology>
     
 
@@ -221,13 +217,6 @@ The project aims foe public to have their own medical records system.</rdfs:comm
 
     <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T1001XX">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasChemicalEntityValue"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -441,13 +430,6 @@ The project aims foe public to have their own medical records system.</rdfs:comm
 
     <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T1001XX">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasChemicalEntityValue"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -686,13 +668,6 @@ The project aims foe public to have their own medical records system.</rdfs:comm
 
     <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L9001XX">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasChemicalEntityValue"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -791,13 +766,6 @@ The project aims foe public to have their own medical records system.</rdfs:comm
 
     <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S2001XX">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasChemicalEntityValue"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_250_mg_Suppository"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -896,13 +864,6 @@ The project aims foe public to have their own medical records system.</rdfs:comm
 
     <owl:Class rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T1001XX">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasChemicalEntityValue"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_500_mg_Tablet"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1165,6 +1126,10 @@ The project aims foe public to have their own medical records system.</rdfs:comm
         <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_(MALAYSIA)_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A"/>
+        <medicineOntology:hasMDCCode rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105"/>
     </owl:NamedIndividual>
     
 
@@ -1228,6 +1193,10 @@ The project aims foe public to have their own medical records system.</rdfs:comm
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG">
         <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
         <owl:sameAs rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A"/>
+        <medicineOntology:hasMDCCode rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108"/>
     </owl:NamedIndividual>
     
 
@@ -1330,6 +1299,10 @@ The project aims foe public to have their own medical records system.</rdfs:comm
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG">
         <rdf:type rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName"/>
+        <medicineOntology:hasChemicalEntityValue rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet"/>
+        <medicineOntology:hasCompanyName rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN._BHD."/>
+        <medicineOntology:hasMALNumber rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A"/>
+        <medicineOntology:hasMDCCode rdf:resource="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103"/>
     </owl:NamedIndividual>
     
 
@@ -1526,4 +1499,3 @@ The project aims foe public to have their own medical records system.</rdfs:comm
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
-

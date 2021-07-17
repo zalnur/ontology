@@ -6,8 +6,8 @@ from .import db
 from flask_login import login_required, logout_user, current_user
 from .forms import EditProfileForm
 
-from owlready2 import *
-onto = get_ontology("medicineOntology.owl").load()
+#from owlready2 import *
+#onto = get_ontology("medicineOntology.owl").load()
 from flask import Flask, url_for
 
 auth = Blueprint('auth', __name__)
@@ -72,56 +72,6 @@ def sign_up():
 @auth.route('/profilepage', methods=['GET', 'POST'])
 @login_required
 def profilepage():
-
-
-    #email = request.form.get('email')
-   #first_name = request.form.get('firstName')
-    #icNumber = request.form.get('icNumber')
-   # user = User.query.filter_by(email=email).first()
-    #user = User.query.filter_by(first_name=firstName).first()
-   # user = User.query.filter_by(icNumber=icNumber).first()
-    
     return render_template("profilepage.html", user=user)
 
-@auth.route('/edit-profile', methods=['GET','POST'])
-@login_required
-def edit_profile():
-
-    
-    form = EditProfileForm() 
-
-    if form.validate_on_submit(): 
-        current_user.username = orm.username.data
-        current_user.about_me = form.about_me.data
-        
-        db.session.commit() 
-        flash('Your profile has been updated.') 
-        return redirect(url_for('edit_profile', username=current_user.username))
-
-    elif request.method == 'GET':
-        form.username.data = current_user.username
-        form.about_me.data = current_user.about_me
-    form.firstName.data = current_user.firstName
-  
-    return render_template("edit_profile.html",title='Edit Profile', form=form)
-
-
-@auth.route('/medicine', methods=['GET', 'POST'])
-@login_required
-def medicinepage():
-
-    #for Class in Class.subclasses():
-     #   url_for("views.medicine", iri = Class.IRI), Class.name
-     #   print(Class)
-
-    html = """<html><body>"""
-    html += """<h2> '%s' ontology </h2>""" %onto.base_iri 
-    html += """<h3>Root classes</h3>"""
-    for Class in Thing.subclasses():
-        html += """ <p><a href="%s">%s</a></p>""" % (url_for("class_page", iri=Class.iri), Class.name)  
-    html += """</body></html>""" 
-    return html
-
-
-  #  return render_template("medicine.html", user=current_user)
 

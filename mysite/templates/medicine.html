@@ -1,0 +1,67 @@
+{% extends "base.html" %} {% block title %}Find Medication{% endblock %} 
+
+    {% block content %}
+    <header>
+    <style>
+      table,th,td {
+        border : 1px solid black;
+        border-collapse: collapse;
+      }
+      th,td {
+        padding: 5px;
+      }
+      h2{
+        text-align: center;
+      }
+  </style>
+  </header>
+  
+  <body>
+    <br><br>
+    <h2>Find Medication</h2>
+
+    <br>   
+    <form method="post">
+      <label for="mcode">M Serial number</label><br>
+      <input type="text" id="mcode" name="mcode">
+      <input type="submit" value="Search substitute medicine">
+    </form>
+    <br><br>
+    {% for mcode, minfo in original.items() %}
+      <label for="ori">Details of medicine being looked up</label>
+      <table id="ori">
+        <tr>
+          <th>Company</th>
+          <th>MAL Code</th>
+          <th>Medicine code</th>
+        </tr>
+        <tr><td><strong>{{minfo[1]}}</strong></td></tr>
+        <tr>
+          <td>{{minfo[0]}}</td>
+          <td>{{minfo[2]}}</td>
+          <td>{{mcode}}</td>
+        </tr>
+      </table>
+    {% endfor %}
+    <br><br>
+    {% for mcode, minfo in sameAs.items() %}
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>MAL Code</th>
+          <th>Medicine code</th>
+        </tr>
+        <tr><td><strong>{{minfo[1]}}</strong></td></tr>
+        <tr>
+          <td>{{minfo[0]}}</td>
+          <td>{{minfo[2]}}</td>
+          <td>{{mcode}}</td>
+        </tr>
+      </table>
+      <br>
+    {% endfor %}
+    <br><br>
+   
+  </body>
+    
+    {% endblock %}

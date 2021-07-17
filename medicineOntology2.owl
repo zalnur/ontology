@@ -1,0 +1,1041 @@
+@prefix : <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology> .
+@prefix g: <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology> .
+
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology> rdf:type owl:Ontology ;
+                                                                        rdfs:comment """Created by Siti Syahirah binti Ibrahim
+For Master of Computer Science (Web Technology) thesis.
+Student ID: 2020559949
+
+The project aims foe public to have their own medical records system.""" ;
+                                                                        owl:versionInfo "1.0" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasChemicalEntityValue
+:hasChemicalEntityValue rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasCompanyName
+:hasCompanyName rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasDoctorCategory
+:hasDoctorCategory rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasDosageForm
+:hasDosageForm rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasDosageTerm
+:hasDosageTerm rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMALNumber
+:hasMALNumber rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasMDCCode
+:hasMDCCode rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasParentMDC
+:hasParentMDC rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#hasProductName
+:hasProductName rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG
+:APO-PROPRANOLOL_TABLET_10MG rdf:type owl:Class ;
+                             rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ARFEN_250_SUPPOSITORIES
+:ARFEN_250_SUPPOSITORIES rdf:type owl:Class ;
+                         rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN_BHD
+:ASTRAZENECA_SDN_BHD rdf:type owl:Class ;
+                     rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#AntimigraineMedicines
+:AntimigraineMedicines rdf:type owl:Class ;
+                       rdfs:subClassOf :TherapeuticGroup .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103
+:C07AA05110T100103 rdf:type owl:Class ;
+                   rdfs:subClassOf :C07AA05110T1001XX ,
+                                   :MDCCode ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :SUNWARD_PHARMACEUTICAL_SDN_BHD
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19973020_A
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :NALOL_TABLET_10MG
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105
+:C07AA05110T100105 rdf:type owl:Class ;
+                   rdfs:subClassOf :C07AA05110T1001XX ,
+                                   :MDCCode ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :PHARMAFORTE_MALAYSIA_SDN_BHD
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19984685_AR
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :APO-PROPRANOLOL_TABLET_10MG
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108
+:C07AA05110T100108 rdf:type owl:Class ;
+                   rdfs:subClassOf :C07AA05110T1001XX ,
+                                   :MDCCode ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :DUOPHARMA_M_SDN_BHD
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19870030_A
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :INDERAL_TABLET_10MG
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T1001XX
+:C07AA05110T1001XX rdf:type owl:Class ;
+                   rdfs:subClassOf :ParentsMDC ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasChemicalEntityValue ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :Propranolol_HCl_10_mg_Tablet
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CHONG_PARK_MEDICAL_HALL_SDN_BHD
+:CHONG_PARK_MEDICAL_HALL_SDN_BHD rdf:type owl:Class ;
+                                 rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntity
+:ChemicalEntity rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ChemicalEntityValue
+:ChemicalEntityValue rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#CompanyName
+:CompanyName rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DHAMOL_TABLET_500MG
+:DHAMOL_TABLET_500MG rdf:type owl:Class ;
+                     rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DUOPHARMA_M_SDN_BHD
+:DUOPHARMA_M_SDN_BHD rdf:type owl:Class ;
+                     rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DosageTerm
+:DosageTerm rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.> rdf:type owl:Class ;
+                                                                                                                     rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDAMAN_PHARMA_MANUFACTURING_SDN_BHD
+:IDAMAN_PHARMA_MANUFACTURING_SDN_BHD rdf:type owl:Class ;
+                                     rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG
+:INDERAL_TABLET_10MG rdf:type owl:Class ;
+                     rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INFANT_SYRUP_UPHAMOL_120
+:INFANT_SYRUP_UPHAMOL_120 rdf:type owl:Class ;
+                          rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen
+:Ibuprofen rdf:type owl:Class ;
+           rdfs:subClassOf :AntimigraineMedicines ,
+                           :ChemicalEntity ,
+                           :MedicineForPainAndPalliativeCare .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet
+:Ibuprofen_200_mg_Tablet rdf:type owl:Class ;
+                         rdfs:subClassOf :ChemicalEntityValue ,
+                                         :Ibuprofen .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Injection
+:Injection rdf:type owl:Class ;
+           rdfs:subClassOf :DosageTerm .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOMEDIC_SDN_BHD
+:KOMEDIC_SDN_BHD rdf:type owl:Class ;
+                 rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100106
+:M01AE01000T100106 rdf:type owl:Class ;
+                   rdfs:subClassOf :M01AE01000T1001XX ,
+                                   :MDCCode ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :PHARMANIAGA_MANUFACTURING_BERHAD
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL20014523_A
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :PHARMANIAGA_IBUPROFEN_TABLET_200MG
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108
+:M01AE01000T100108 rdf:type owl:Class ;
+                   rdfs:subClassOf :M01AE01000T1001XX ,
+                                   :MDCCode ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19962557_A
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :PANAMAX_TABLET
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100114
+:M01AE01000T100114 rdf:type owl:Class ;
+                   rdfs:subClassOf :M01AE01000T1001XX ,
+                                   :MDCCode ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN_BHD>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL20012745_ACE
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :PANAMAX_TABLET
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T1001XX
+:M01AE01000T1001XX rdf:type owl:Class ;
+                   rdfs:subClassOf :ParentsMDC ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasChemicalEntityValue ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :Ibuprofen_200_mg_Tablet
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A
+:MAL19870030_A rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910654_X
+:MAL19910654_X rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19910697_X
+:MAL19910697_X rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912426_X
+:MAL19912426_X rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19912686_X
+:MAL19912686_X rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19920359_X
+:MAL19920359_X rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19921172_X
+:MAL19921172_X rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19961333_XC
+:MAL19961333_XC rdf:type owl:Class ;
+                rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962078_X
+:MAL19962078_X rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962557_A
+:MAL19962557_A rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A
+:MAL19973020_A rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19984685_AR
+:MAL19984685_AR rdf:type owl:Class ;
+                rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20012745_ACE
+:MAL20012745_ACE rdf:type owl:Class ;
+                 rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20014523_A
+:MAL20014523_A rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20032439_X
+:MAL20032439_X rdf:type owl:Class ;
+               rdfs:subClassOf :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MALRegistrationNumber
+:MALRegistrationNumber rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MDCCode
+:MDCCode rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MedicineForPainAndPalliativeCare
+:MedicineForPainAndPalliativeCare rdf:type owl:Class ;
+                                  rdfs:subClassOf :TherapeuticGroup .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900103
+:N02BE01000L900103 rdf:type owl:Class ;
+                   rdfs:subClassOf :MDCCode ,
+                                   :N02BE01000L9001XX ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :CHONG_PARK_MEDICAL_HALL_SDN_BHD
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19962078_X
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOOL_FEVER_SUSPENSION_120MG/5ML>
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900104
+:N02BE01000L900104 rdf:type owl:Class ;
+                   rdfs:subClassOf :MDCCode ,
+                                   :N02BE01000L9001XX ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAPHARM_(M)_SDN_BHD>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19910654_X
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAMOL_SYRUP_120MG/5ML>
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L900105
+:N02BE01000L900105 rdf:type owl:Class ;
+                   rdfs:subClassOf :MDCCode ,
+                                   :N02BE01000L9001XX ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19912686_X
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :INFANT_SYRUP_UPHAMOL_120
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000L9001XX
+:N02BE01000L9001XX rdf:type owl:Class ;
+                   rdfs:subClassOf :ParentsMDC ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasChemicalEntityValue ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup>
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200101
+:N02BE01000S200101 rdf:type owl:Class ;
+                   rdfs:subClassOf :MDCCode ,
+                                   :N02BE01000S2001XX ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :DUOPHARMA_M_SDN_BHD
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19910697_X
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :TEMPOL_SUPPOSITORY_250MG
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200104
+:N02BE01000S200104 rdf:type owl:Class ;
+                   rdfs:subClassOf :MDCCode ,
+                                   :N02BE01000S2001XX ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDS_SERVICES_(MALAYSIA)_SDN_BHD>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL20032439_X
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :REMEDOL_250_SUPPOSITORIES
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S200106
+:N02BE01000S200106 rdf:type owl:Class ;
+                   rdfs:subClassOf :MDCCode ,
+                                   :N02BE01000S2001XX ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :KOMEDIC_SDN_BHD
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19921172_X
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :REMEDOL_250_SUPPOSITORIES
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000S2001XX
+:N02BE01000S2001XX rdf:type owl:Class ;
+                   rdfs:subClassOf :ParentsMDC ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasChemicalEntityValue ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :Paracetamol_250_mg_Suppository
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100103
+:N02BE01000T100103 rdf:type owl:Class ;
+                   rdfs:subClassOf :MDCCode ,
+                                   :N02BE01000T1001XX ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :PHARMANIAGA_LOGISTICS_SDN_BHD
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19961333_XC
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :PARACETAMOL_TABLET_500MG
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100109
+:N02BE01000T100109 rdf:type owl:Class ;
+                   rdfs:subClassOf :MDCCode ,
+                                   :N02BE01000T1001XX ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :SCANLAB_SENDIRIAN_BERHAD
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19920359_X
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :ORALCET_TABLET
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T100112
+:N02BE01000T100112 rdf:type owl:Class ;
+                   rdfs:subClassOf :MDCCode ,
+                                   :N02BE01000T1001XX ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasCompanyName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasMALNumber ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :MAL19912426_X
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasProductName ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :DHAMOL_TABLET_500MG
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#N02BE01000T1001XX
+:N02BE01000T1001XX rdf:type owl:Class ;
+                   rdfs:subClassOf :ParentsMDC ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasChemicalEntityValue ;
+                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onClass :Paracetamol_500_mg_Tablet
+                                   ] .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG
+:NALOL_TABLET_10MG rdf:type owl:Class ;
+                   rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ORALCET_TABLET
+:ORALCET_TABLET rdf:type owl:Class ;
+                rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Oral
+:Oral rdf:type owl:Class ;
+      rdfs:subClassOf :DosageTerm .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET
+:PANAMAX_TABLET rdf:type owl:Class ;
+                rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PARACETAMOL_TABLET_500MG
+:PARACETAMOL_TABLET_500MG rdf:type owl:Class ;
+                          rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_MALAYSIA_SDN_BHD
+:PHARMAFORTE_MALAYSIA_SDN_BHD rdf:type owl:Class ;
+                              rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_IBUPROFEN_TABLET_200MG
+:PHARMANIAGA_IBUPROFEN_TABLET_200MG rdf:type owl:Class ;
+                                    rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_LOGISTICS_SDN_BHD
+:PHARMANIAGA_LOGISTICS_SDN_BHD rdf:type owl:Class ;
+                               rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_MANUFACTURING_BERHAD
+:PHARMANIAGA_MANUFACTURING_BERHAD rdf:type owl:Class ;
+                                  rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol
+:Paracetamol rdf:type owl:Class ;
+             rdfs:subClassOf :AntimigraineMedicines ,
+                             :ChemicalEntity ,
+                             :MedicineForPainAndPalliativeCare .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_250_mg_Suppository
+:Paracetamol_250_mg_Suppository rdf:type owl:Class ;
+                                rdfs:subClassOf :ChemicalEntityValue ,
+                                                :Paracetamol .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_500_mg_Tablet
+:Paracetamol_500_mg_Tablet rdf:type owl:Class ;
+                           rdfs:subClassOf :ChemicalEntityValue ,
+                                           :Paracetamol .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ParentsMDC
+:ParentsMDC rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ProductName
+:ProductName rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol
+:Propranolol rdf:type owl:Class ;
+             rdfs:subClassOf :AntimigraineMedicines ,
+                             :ChemicalEntity .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet
+:Propranolol_HCl_10_mg_Tablet rdf:type owl:Class ;
+                              rdfs:subClassOf :ChemicalEntityValue ,
+                                              :Propranolol .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#REMEDOL_250_SUPPOSITORIES
+:REMEDOL_250_SUPPOSITORIES rdf:type owl:Class ;
+                           rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SCANLAB_SENDIRIAN_BERHAD
+:SCANLAB_SENDIRIAN_BERHAD rdf:type owl:Class ;
+                          rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SM_PHARMACEUTICALS_SDN_BHD
+:SM_PHARMACEUTICALS_SDN_BHD rdf:type owl:Class ;
+                            rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN_BHD
+:SUNWARD_PHARMACEUTICAL_SDN_BHD rdf:type owl:Class ;
+                                rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TEMPOL_SUPPOSITORY_250MG
+:TEMPOL_SUPPOSITORY_250MG rdf:type owl:Class ;
+                          rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#TherapeuticGroup
+:TherapeuticGroup rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD> rdf:type owl:Class ;
+                                                                                                                  rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAMOL_SYRUP_120MG/5ML
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAMOL_SYRUP_120MG/5ML> rdf:type owl:Class ;
+                                                                                               rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAPHARM_(M)_SDN_BHD
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAPHARM_(M)_SDN_BHD> rdf:type owl:Class ;
+                                                                                             rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDS_SERVICES_(MALAYSIA)_SDN_BHD
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDS_SERVICES_(MALAYSIA)_SDN_BHD> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOOL_FEVER_SUSPENSION_120MG/5ML
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOOL_FEVER_SUSPENSION_120MG/5ML> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf :ChemicalEntityValue ,
+                                                                                                                     :Paracetamol .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN_BHD
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN_BHD> rdf:type owl:Class ;
+                                                                                                      rdfs:subClassOf :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD> rdf:type owl:Class ;
+                                                                                                           rdfs:subClassOf :CompanyName .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#APO-PROPRANOLOL_TABLET_10MG
+:APO-PROPRANOLOL_TABLET_10MG rdf:type owl:NamedIndividual ,
+                                      :ProductName ;
+                             owl:sameAs :INDERAL_TABLET_10MG ,
+                                        :NALOL_TABLET_10MG .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN._BHD.
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN._BHD.> rdf:type owl:NamedIndividual ,
+                                                                                                      :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100103
+:C07AA05110T100103 rdf:type owl:NamedIndividual ,
+                            :MDCCode ;
+                   owl:sameAs :C07AA05110T100105 ;
+                   :hasChemicalEntityValue :Propranolol_HCl_10_mg_Tablet ;
+                   :hasCompanyName <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN._BHD.> ;
+                   :hasMALNumber :MAL19973020_A ;
+                   :hasProductName :NALOL_TABLET_10MG .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100105
+:C07AA05110T100105 rdf:type owl:NamedIndividual ,
+                            :MDCCode ;
+                   owl:sameAs :C07AA05110T100108 ;
+                   :hasChemicalEntityValue :Propranolol_HCl_10_mg_Tablet ;
+                   :hasCompanyName <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_(MALAYSIA)_SDN._BHD.> ;
+                   :hasMALNumber :MAL19984685_AR ;
+                   :hasProductName :APO-PROPRANOLOL_TABLET_10MG .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#C07AA05110T100108
+:C07AA05110T100108 rdf:type owl:NamedIndividual ,
+                            :MDCCode ;
+                   :hasChemicalEntityValue :Propranolol_HCl_10_mg_Tablet ;
+                   :hasCompanyName <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASTRAZENECA_SDN._BHD.> ;
+                   :hasMALNumber :MAL19870030_A ;
+                   :hasProductName :INDERAL_TABLET_10MG .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.> rdf:type owl:NamedIndividual ,
+                                                                                                                              :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#INDERAL_TABLET_10MG
+:INDERAL_TABLET_10MG rdf:type owl:NamedIndividual ,
+                              :ProductName ;
+                     owl:sameAs :NALOL_TABLET_10MG .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Ibuprofen_200_mg_Tablet
+:Ibuprofen_200_mg_Tablet rdf:type owl:NamedIndividual ,
+                                  :ChemicalEntityValue .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100106
+:M01AE01000T100106 rdf:type owl:NamedIndividual ,
+                            :MDCCode ;
+                   owl:sameAs :M01AE01000T100108 ;
+                   :hasChemicalEntityValue :Ibuprofen_200_mg_Tablet ;
+                   :hasCompanyName :PHARMANIAGA_MANUFACTURING_BERHAD ;
+                   :hasMALNumber :MAL20014523_A ;
+                   :hasProductName :PHARMANIAGA_IBUPROFEN_TABLET_200_MG .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100108
+:M01AE01000T100108 rdf:type owl:NamedIndividual ,
+                            :MDCCode ;
+                   owl:sameAs :M01AE01000T100114 ;
+                   :hasChemicalEntityValue :Ibuprofen_200_mg_Tablet ;
+                   :hasCompanyName <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.> ;
+                   :hasMALNumber :MAL19962557_A ;
+                   :hasProductName :PANAMAX_TABLET .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#M01AE01000T100114
+:M01AE01000T100114 rdf:type owl:NamedIndividual ,
+                            :MDCCode ;
+                   :hasChemicalEntityValue :Ibuprofen_200_mg_Tablet ;
+                   :hasCompanyName <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN._BHD.> ;
+                   :hasMALNumber :MAL20012745_ACE ;
+                   :hasProductName :PANAMAX_TABLET .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19870030_A
+:MAL19870030_A rdf:type owl:NamedIndividual ,
+                        :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19962557_A
+:MAL19962557_A rdf:type owl:NamedIndividual ,
+                        :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19973020_A
+:MAL19973020_A rdf:type owl:NamedIndividual ,
+                        :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL19984685_AR
+:MAL19984685_AR rdf:type owl:NamedIndividual ,
+                         :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20012745_ACE
+:MAL20012745_ACE rdf:type owl:NamedIndividual ,
+                          :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#MAL20014523_A
+:MAL20014523_A rdf:type owl:NamedIndividual ,
+                        :MALRegistrationNumber .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#NALOL_TABLET_10MG
+:NALOL_TABLET_10MG rdf:type owl:NamedIndividual ,
+                            :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PANAMAX_TABLET
+:PANAMAX_TABLET rdf:type owl:NamedIndividual ,
+                         :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_IBUPROFEN_TABLET_200_MG
+:PHARMANIAGA_IBUPROFEN_TABLET_200_MG rdf:type owl:NamedIndividual ,
+                                              :ProductName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMANIAGA_MANUFACTURING_BERHAD
+:PHARMANIAGA_MANUFACTURING_BERHAD rdf:type owl:NamedIndividual ,
+                                           :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_250_mg_Suppository
+:Paracetamol_250_mg_Suppository rdf:type owl:NamedIndividual ,
+                                         :ChemicalEntityValue .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_500_mg_Tablet
+:Paracetamol_500_mg_Tablet rdf:type owl:NamedIndividual ,
+                                    :ChemicalEntityValue .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Propranolol_HCl_10_mg_Tablet
+:Propranolol_HCl_10_mg_Tablet rdf:type owl:NamedIndividual ,
+                                       :ChemicalEntityValue .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN._BHD.
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#SUNWARD_PHARMACEUTICAL_SDN._BHD.> rdf:type owl:NamedIndividual ,
+                                                                                                                 :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_(MALAYSIA)_SDN._BHD.
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#PHARMAFORTE_(MALAYSIA)_SDN._BHD.> rdf:type owl:NamedIndividual ,
+                                                                                                                 :CompanyName .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup> rdf:type owl:NamedIndividual ,
+                                                                                                              :ChemicalEntityValue .
+
+
+###  http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN._BHD.
+<http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN._BHD.> rdf:type owl:NamedIndividual ,
+                                                                                                                 :CompanyName .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :APO-PROPRANOLOL_TABLET_10MG
+                :ARFEN_250_SUPPOSITORIES
+                :DHAMOL_TABLET_500MG
+                :INDERAL_TABLET_10MG
+                :INFANT_SYRUP_UPHAMOL_120
+                :NALOL_TABLET_10MG
+                :ORALCET_TABLET
+                :PANAMAX_TABLET
+                :PARACETAMOL_TABLET_500MG
+                :PHARMANIAGA_IBUPROFEN_TABLET_200MG
+                :REMEDOL_250_SUPPOSITORIES
+                :TEMPOL_SUPPOSITORY_250MG
+                <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAMOL_SYRUP_120MG/5ML>
+                <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#KOOL_FEVER_SUSPENSION_120MG/5ML>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :ASTRAZENECA_SDN_BHD
+                :CHONG_PARK_MEDICAL_HALL_SDN_BHD
+                :DUOPHARMA_M_SDN_BHD
+                <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.>
+                :IDAMAN_PHARMA_MANUFACTURING_SDN_BHD
+                :KOMEDIC_SDN_BHD
+                :PHARMAFORTE_MALAYSIA_SDN_BHD
+                :PHARMANIAGA_LOGISTICS_SDN_BHD
+                :PHARMANIAGA_MANUFACTURING_BERHAD
+                :SCANLAB_SENDIRIAN_BERHAD
+                :SM_PHARMACEUTICALS_SDN_BHD
+                :SUNWARD_PHARMACEUTICAL_SDN_BHD
+                <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD>
+                <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#DYNAPHARM_(M)_SDN_BHD>
+                <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#IDS_SERVICES_(MALAYSIA)_SDN_BHD>
+                <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#STERLING_DRUG_(MALAYA)_SDN_BHD>
+                <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :C07AA05110T100103
+                :C07AA05110T100105
+                :C07AA05110T100108
+                :M01AE01000T100106
+                :M01AE01000T100108
+                :M01AE01000T100114
+                :N02BE01000L900103
+                :N02BE01000L900104
+                :N02BE01000L900105
+                :N02BE01000S200101
+                :N02BE01000S200104
+                :N02BE01000S200106
+                :N02BE01000T100103
+                :N02BE01000T100109
+                :N02BE01000T100112
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Ibuprofen
+                :Paracetamol
+                :Propranolol
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Ibuprofen_200_mg_Tablet
+                :Paracetamol_250_mg_Suppository
+                :Paracetamol_500_mg_Tablet
+                :Propranolol_HCl_10_mg_Tablet
+                <http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#Paracetamol_120_mg/5_ml_Syrup>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :MAL19870030_A
+                :MAL19910654_X
+                :MAL19910697_X
+                :MAL19912426_X
+                :MAL19912686_X
+                :MAL19920359_X
+                :MAL19921172_X
+                :MAL19961333_XC
+                :MAL19962078_X
+                :MAL19962557_A
+                :MAL19973020_A
+                :MAL19984685_AR
+                :MAL20012745_ACE
+                :MAL20014523_A
+                :MAL20032439_X
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

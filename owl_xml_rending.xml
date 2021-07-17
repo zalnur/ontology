@@ -1,0 +1,1502 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology#"/>
+    <Prefix name="g" IRI="http://www.semanticweb.org/hpuser/ontologies/2021/5/medicineOntology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Created by Siti Syahirah binti Ibrahim
+For Master of Computer Science (Web Technology) thesis.
+Student ID: 2020559949
+
+The project aims foe public to have their own medical records system.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>1.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#APO-PROPRANOLOL_TABLET_10MG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ARFEN_250_SUPPOSITORIES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ASTRAZENECA_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntimigraineMedicines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C07AA05110T100103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C07AA05110T100105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C07AA05110T100108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C07AA05110T1001XX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CHONG_PARK_MEDICAL_HALL_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalEntityValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompanyName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DHAMOL_TABLET_500MG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DUOPHARMA_M_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DosageTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IDAMAN_PHARMA_MANUFACTURING_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INDERAL_TABLET_10MG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INFANT_SYRUP_UPHAMOL_120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ibuprofen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ibuprofen_200_mg_Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Injection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KOMEDIC_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M01AE01000T100106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M01AE01000T100108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M01AE01000T100114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M01AE01000T1001XX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19870030_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19910654_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19910697_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19912426_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19912686_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19920359_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19921172_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19961333_XC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19962078_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19962557_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19973020_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL19984685_AR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL20012745_ACE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL20014523_A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAL20032439_X"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MALRegistrationNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MDCCode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicineForPainAndPalliativeCare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000L900103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000L900104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000L900105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000L9001XX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000S200101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000S200104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000S200106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000S2001XX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000T100103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000T100109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000T100112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N02BE01000T1001XX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NALOL_TABLET_10MG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ORALCET_TABLET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PANAMAX_TABLET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PARACETAMOL_TABLET_500MG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHARMAFORTE_MALAYSIA_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHARMANIAGA_IBUPROFEN_TABLET_200MG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHARMANIAGA_LOGISTICS_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paracetamol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paracetamol_250_mg_Suppository"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paracetamol_500_mg_Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParentsMDC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProductName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propranolol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propranolol_HCl_10_mg_Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#REMEDOL_250_SUPPOSITORIES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SCANLAB_SENDIRIAN_BERHAD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SM_PHARMACEUTICALS_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SUNWARD_PHARMACEUTICAL_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TEMPOL_SUPPOSITORY_250MG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TherapeuticGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DYNAMOL_SYRUP_120MG/5ML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DYNAPHARM_(M)_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IDS_SERVICES_(MALAYSIA)_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KOOL_FEVER_SUSPENSION_120MG/5ML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paracetamol_120_mg/5_ml_Syrup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STERLING_DRUG_(MALAYA)_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasChemicalEntityValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompanyName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDoctorCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDosageForm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDosageTerm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMALNumber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMDCCode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParentMDC"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProductName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#APO-PROPRANOLOL_TABLET_10MG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ASTRAZENECA_SDN._BHD."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C07AA05110T100103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C07AA05110T100105"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C07AA05110T100108"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#INDERAL_TABLET_10MG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ibuprofen_200_mg_Tablet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M01AE01000T100106"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M01AE01000T100108"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M01AE01000T100114"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAL19870030_A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAL19962557_A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAL19973020_A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAL19984685_AR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAL20012745_ACE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAL20014523_A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NALOL_TABLET_10MG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PANAMAX_TABLET"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PHARMANIAGA_IBUPROFEN_TABLET_200_MG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paracetamol_250_mg_Suppository"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paracetamol_500_mg_Tablet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Propranolol_HCl_10_mg_Tablet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SUNWARD_PHARMACEUTICAL_SDN._BHD."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PHARMAFORTE_(MALAYSIA)_SDN._BHD."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paracetamol_120_mg/5_ml_Syrup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#STERLING_DRUG_(MALAYA)_SDN._BHD."/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#APO-PROPRANOLOL_TABLET_10MG"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ARFEN_250_SUPPOSITORIES"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ASTRAZENECA_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntimigraineMedicines"/>
+        <Class IRI="#TherapeuticGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100103"/>
+        <Class IRI="#C07AA05110T1001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100103"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100103"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#SUNWARD_PHARMACEUTICAL_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100103"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19973020_A"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100103"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#NALOL_TABLET_10MG"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100105"/>
+        <Class IRI="#C07AA05110T1001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100105"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100105"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#PHARMAFORTE_MALAYSIA_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100105"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19984685_AR"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100105"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#APO-PROPRANOLOL_TABLET_10MG"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100108"/>
+        <Class IRI="#C07AA05110T1001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100108"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100108"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#DUOPHARMA_M_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100108"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19870030_A"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T100108"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#INDERAL_TABLET_10MG"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T1001XX"/>
+        <Class IRI="#ParentsMDC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C07AA05110T1001XX"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasChemicalEntityValue"/>
+            <Class IRI="#Propranolol_HCl_10_mg_Tablet"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CHONG_PARK_MEDICAL_HALL_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DHAMOL_TABLET_500MG"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DUOPHARMA_M_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IDAMAN_PHARMA_MANUFACTURING_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INDERAL_TABLET_10MG"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INFANT_SYRUP_UPHAMOL_120"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ibuprofen"/>
+        <Class IRI="#AntimigraineMedicines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ibuprofen"/>
+        <Class IRI="#ChemicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ibuprofen"/>
+        <Class IRI="#MedicineForPainAndPalliativeCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ibuprofen_200_mg_Tablet"/>
+        <Class IRI="#ChemicalEntityValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ibuprofen_200_mg_Tablet"/>
+        <Class IRI="#Ibuprofen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Injection"/>
+        <Class IRI="#DosageTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KOMEDIC_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100106"/>
+        <Class IRI="#M01AE01000T1001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100106"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100106"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100106"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL20014523_A"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100106"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#PHARMANIAGA_IBUPROFEN_TABLET_200MG"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100108"/>
+        <Class IRI="#M01AE01000T1001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100108"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100108"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100108"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19962557_A"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100108"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#PANAMAX_TABLET"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100114"/>
+        <Class IRI="#M01AE01000T1001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100114"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100114"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#STERLING_DRUG_(MALAYA)_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100114"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL20012745_ACE"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T100114"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#PANAMAX_TABLET"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T1001XX"/>
+        <Class IRI="#ParentsMDC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M01AE01000T1001XX"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasChemicalEntityValue"/>
+            <Class IRI="#Ibuprofen_200_mg_Tablet"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19870030_A"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19910654_X"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19910697_X"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19912426_X"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19912686_X"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19920359_X"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19921172_X"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19961333_XC"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19962078_X"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19962557_A"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19973020_A"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL19984685_AR"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL20012745_ACE"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL20014523_A"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAL20032439_X"/>
+        <Class IRI="#MALRegistrationNumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicineForPainAndPalliativeCare"/>
+        <Class IRI="#TherapeuticGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900103"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900103"/>
+        <Class IRI="#N02BE01000L9001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900103"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#CHONG_PARK_MEDICAL_HALL_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900103"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19962078_X"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900103"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#KOOL_FEVER_SUSPENSION_120MG/5ML"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900104"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900104"/>
+        <Class IRI="#N02BE01000L9001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900104"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#DYNAPHARM_(M)_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900104"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19910654_X"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900104"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#DYNAMOL_SYRUP_120MG/5ML"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900105"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900105"/>
+        <Class IRI="#N02BE01000L9001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900105"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900105"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19912686_X"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L900105"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#INFANT_SYRUP_UPHAMOL_120"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L9001XX"/>
+        <Class IRI="#ParentsMDC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000L9001XX"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasChemicalEntityValue"/>
+            <Class IRI="#Paracetamol_120_mg/5_ml_Syrup"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200101"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200101"/>
+        <Class IRI="#N02BE01000S2001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200101"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#DUOPHARMA_M_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200101"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19910697_X"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200101"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#TEMPOL_SUPPOSITORY_250MG"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200104"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200104"/>
+        <Class IRI="#N02BE01000S2001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200104"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#IDS_SERVICES_(MALAYSIA)_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200104"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL20032439_X"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200104"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#REMEDOL_250_SUPPOSITORIES"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200106"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200106"/>
+        <Class IRI="#N02BE01000S2001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200106"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#KOMEDIC_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200106"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19921172_X"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S200106"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#REMEDOL_250_SUPPOSITORIES"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S2001XX"/>
+        <Class IRI="#ParentsMDC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000S2001XX"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasChemicalEntityValue"/>
+            <Class IRI="#Paracetamol_250_mg_Suppository"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100103"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100103"/>
+        <Class IRI="#N02BE01000T1001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100103"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#PHARMANIAGA_LOGISTICS_SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100103"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19961333_XC"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100103"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#PARACETAMOL_TABLET_500MG"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100109"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100109"/>
+        <Class IRI="#N02BE01000T1001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100109"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#SCANLAB_SENDIRIAN_BERHAD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100109"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19920359_X"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100109"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#ORALCET_TABLET"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100112"/>
+        <Class IRI="#MDCCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100112"/>
+        <Class IRI="#N02BE01000T1001XX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100112"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCompanyName"/>
+            <Class IRI="#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100112"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasMALNumber"/>
+            <Class IRI="#MAL19912426_X"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T100112"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasProductName"/>
+            <Class IRI="#DHAMOL_TABLET_500MG"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T1001XX"/>
+        <Class IRI="#ParentsMDC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N02BE01000T1001XX"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasChemicalEntityValue"/>
+            <Class IRI="#Paracetamol_500_mg_Tablet"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NALOL_TABLET_10MG"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ORALCET_TABLET"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oral"/>
+        <Class IRI="#DosageTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PANAMAX_TABLET"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PARACETAMOL_TABLET_500MG"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHARMAFORTE_MALAYSIA_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHARMANIAGA_IBUPROFEN_TABLET_200MG"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHARMANIAGA_LOGISTICS_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paracetamol"/>
+        <Class IRI="#AntimigraineMedicines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paracetamol"/>
+        <Class IRI="#ChemicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paracetamol"/>
+        <Class IRI="#MedicineForPainAndPalliativeCare"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paracetamol_250_mg_Suppository"/>
+        <Class IRI="#ChemicalEntityValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paracetamol_250_mg_Suppository"/>
+        <Class IRI="#Paracetamol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paracetamol_500_mg_Tablet"/>
+        <Class IRI="#ChemicalEntityValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paracetamol_500_mg_Tablet"/>
+        <Class IRI="#Paracetamol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propranolol"/>
+        <Class IRI="#AntimigraineMedicines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propranolol"/>
+        <Class IRI="#ChemicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propranolol_HCl_10_mg_Tablet"/>
+        <Class IRI="#ChemicalEntityValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propranolol_HCl_10_mg_Tablet"/>
+        <Class IRI="#Propranolol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#REMEDOL_250_SUPPOSITORIES"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SCANLAB_SENDIRIAN_BERHAD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SM_PHARMACEUTICALS_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUNWARD_PHARMACEUTICAL_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TEMPOL_SUPPOSITORY_250MG"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DYNAMOL_SYRUP_120MG/5ML"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DYNAPHARM_(M)_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IDS_SERVICES_(MALAYSIA)_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KOOL_FEVER_SUSPENSION_120MG/5ML"/>
+        <Class IRI="#ProductName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paracetamol_120_mg/5_ml_Syrup"/>
+        <Class IRI="#ChemicalEntityValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paracetamol_120_mg/5_ml_Syrup"/>
+        <Class IRI="#Paracetamol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STERLING_DRUG_(MALAYA)_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD"/>
+        <Class IRI="#CompanyName"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#APO-PROPRANOLOL_TABLET_10MG"/>
+        <Class IRI="#ARFEN_250_SUPPOSITORIES"/>
+        <Class IRI="#DHAMOL_TABLET_500MG"/>
+        <Class IRI="#INDERAL_TABLET_10MG"/>
+        <Class IRI="#INFANT_SYRUP_UPHAMOL_120"/>
+        <Class IRI="#NALOL_TABLET_10MG"/>
+        <Class IRI="#ORALCET_TABLET"/>
+        <Class IRI="#PANAMAX_TABLET"/>
+        <Class IRI="#PARACETAMOL_TABLET_500MG"/>
+        <Class IRI="#PHARMANIAGA_IBUPROFEN_TABLET_200MG"/>
+        <Class IRI="#REMEDOL_250_SUPPOSITORIES"/>
+        <Class IRI="#TEMPOL_SUPPOSITORY_250MG"/>
+        <Class IRI="#DYNAMOL_SYRUP_120MG/5ML"/>
+        <Class IRI="#KOOL_FEVER_SUSPENSION_120MG/5ML"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ASTRAZENECA_SDN_BHD"/>
+        <Class IRI="#CHONG_PARK_MEDICAL_HALL_SDN_BHD"/>
+        <Class IRI="#DUOPHARMA_M_SDN_BHD"/>
+        <Class IRI="#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+        <Class IRI="#IDAMAN_PHARMA_MANUFACTURING_SDN_BHD"/>
+        <Class IRI="#KOMEDIC_SDN_BHD"/>
+        <Class IRI="#PHARMAFORTE_MALAYSIA_SDN_BHD"/>
+        <Class IRI="#PHARMANIAGA_LOGISTICS_SDN_BHD"/>
+        <Class IRI="#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+        <Class IRI="#SCANLAB_SENDIRIAN_BERHAD"/>
+        <Class IRI="#SM_PHARMACEUTICALS_SDN_BHD"/>
+        <Class IRI="#SUNWARD_PHARMACEUTICAL_SDN_BHD"/>
+        <Class IRI="#ASCENT_PHARMAHEALTH_ASIA_(MALAYSIA)SDN_BHD"/>
+        <Class IRI="#DYNAPHARM_(M)_SDN_BHD"/>
+        <Class IRI="#IDS_SERVICES_(MALAYSIA)_SDN_BHD"/>
+        <Class IRI="#STERLING_DRUG_(MALAYA)_SDN_BHD"/>
+        <Class IRI="#UPHA_PHARMACEUTICAL_MFG_(M)_SDN_BHD"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#C07AA05110T100103"/>
+        <Class IRI="#C07AA05110T100105"/>
+        <Class IRI="#C07AA05110T100108"/>
+        <Class IRI="#M01AE01000T100106"/>
+        <Class IRI="#M01AE01000T100108"/>
+        <Class IRI="#M01AE01000T100114"/>
+        <Class IRI="#N02BE01000L900103"/>
+        <Class IRI="#N02BE01000L900104"/>
+        <Class IRI="#N02BE01000L900105"/>
+        <Class IRI="#N02BE01000S200101"/>
+        <Class IRI="#N02BE01000S200104"/>
+        <Class IRI="#N02BE01000S200106"/>
+        <Class IRI="#N02BE01000T100103"/>
+        <Class IRI="#N02BE01000T100109"/>
+        <Class IRI="#N02BE01000T100112"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ibuprofen"/>
+        <Class IRI="#Paracetamol"/>
+        <Class IRI="#Propranolol"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ibuprofen_200_mg_Tablet"/>
+        <Class IRI="#Paracetamol_250_mg_Suppository"/>
+        <Class IRI="#Paracetamol_500_mg_Tablet"/>
+        <Class IRI="#Propranolol_HCl_10_mg_Tablet"/>
+        <Class IRI="#Paracetamol_120_mg/5_ml_Syrup"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MAL19870030_A"/>
+        <Class IRI="#MAL19910654_X"/>
+        <Class IRI="#MAL19910697_X"/>
+        <Class IRI="#MAL19912426_X"/>
+        <Class IRI="#MAL19912686_X"/>
+        <Class IRI="#MAL19920359_X"/>
+        <Class IRI="#MAL19921172_X"/>
+        <Class IRI="#MAL19961333_XC"/>
+        <Class IRI="#MAL19962078_X"/>
+        <Class IRI="#MAL19962557_A"/>
+        <Class IRI="#MAL19973020_A"/>
+        <Class IRI="#MAL19984685_AR"/>
+        <Class IRI="#MAL20012745_ACE"/>
+        <Class IRI="#MAL20014523_A"/>
+        <Class IRI="#MAL20032439_X"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#ProductName"/>
+        <NamedIndividual IRI="#APO-PROPRANOLOL_TABLET_10MG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CompanyName"/>
+        <NamedIndividual IRI="#ASTRAZENECA_SDN._BHD."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MDCCode"/>
+        <NamedIndividual IRI="#C07AA05110T100103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MDCCode"/>
+        <NamedIndividual IRI="#C07AA05110T100105"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MDCCode"/>
+        <NamedIndividual IRI="#C07AA05110T100108"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CompanyName"/>
+        <NamedIndividual IRI="#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductName"/>
+        <NamedIndividual IRI="#INDERAL_TABLET_10MG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChemicalEntityValue"/>
+        <NamedIndividual IRI="#Ibuprofen_200_mg_Tablet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MDCCode"/>
+        <NamedIndividual IRI="#M01AE01000T100106"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MDCCode"/>
+        <NamedIndividual IRI="#M01AE01000T100108"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MDCCode"/>
+        <NamedIndividual IRI="#M01AE01000T100114"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MALRegistrationNumber"/>
+        <NamedIndividual IRI="#MAL19870030_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MALRegistrationNumber"/>
+        <NamedIndividual IRI="#MAL19962557_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MALRegistrationNumber"/>
+        <NamedIndividual IRI="#MAL19973020_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MALRegistrationNumber"/>
+        <NamedIndividual IRI="#MAL19984685_AR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MALRegistrationNumber"/>
+        <NamedIndividual IRI="#MAL20012745_ACE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MALRegistrationNumber"/>
+        <NamedIndividual IRI="#MAL20014523_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductName"/>
+        <NamedIndividual IRI="#NALOL_TABLET_10MG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductName"/>
+        <NamedIndividual IRI="#PANAMAX_TABLET"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProductName"/>
+        <NamedIndividual IRI="#PHARMANIAGA_IBUPROFEN_TABLET_200_MG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CompanyName"/>
+        <NamedIndividual IRI="#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChemicalEntityValue"/>
+        <NamedIndividual IRI="#Paracetamol_250_mg_Suppository"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChemicalEntityValue"/>
+        <NamedIndividual IRI="#Paracetamol_500_mg_Tablet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChemicalEntityValue"/>
+        <NamedIndividual IRI="#Propranolol_HCl_10_mg_Tablet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CompanyName"/>
+        <NamedIndividual IRI="#SUNWARD_PHARMACEUTICAL_SDN._BHD."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CompanyName"/>
+        <NamedIndividual IRI="#PHARMAFORTE_(MALAYSIA)_SDN._BHD."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChemicalEntityValue"/>
+        <NamedIndividual IRI="#Paracetamol_120_mg/5_ml_Syrup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CompanyName"/>
+        <NamedIndividual IRI="#STERLING_DRUG_(MALAYA)_SDN._BHD."/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#APO-PROPRANOLOL_TABLET_10MG"/>
+        <NamedIndividual IRI="#INDERAL_TABLET_10MG"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#APO-PROPRANOLOL_TABLET_10MG"/>
+        <NamedIndividual IRI="#NALOL_TABLET_10MG"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#C07AA05110T100103"/>
+        <NamedIndividual IRI="#C07AA05110T100105"/>
+        <NamedIndividual IRI="#C07AA05110T100108"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#INDERAL_TABLET_10MG"/>
+        <NamedIndividual IRI="#NALOL_TABLET_10MG"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#M01AE01000T100106"/>
+        <NamedIndividual IRI="#M01AE01000T100108"/>
+        <NamedIndividual IRI="#M01AE01000T100114"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChemicalEntityValue"/>
+        <NamedIndividual IRI="#C07AA05110T100103"/>
+        <NamedIndividual IRI="#Propranolol_HCl_10_mg_Tablet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCompanyName"/>
+        <NamedIndividual IRI="#C07AA05110T100103"/>
+        <NamedIndividual IRI="#SUNWARD_PHARMACEUTICAL_SDN._BHD."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMALNumber"/>
+        <NamedIndividual IRI="#C07AA05110T100103"/>
+        <NamedIndividual IRI="#MAL19973020_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProductName"/>
+        <NamedIndividual IRI="#C07AA05110T100103"/>
+        <NamedIndividual IRI="#NALOL_TABLET_10MG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChemicalEntityValue"/>
+        <NamedIndividual IRI="#C07AA05110T100105"/>
+        <NamedIndividual IRI="#Propranolol_HCl_10_mg_Tablet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCompanyName"/>
+        <NamedIndividual IRI="#C07AA05110T100105"/>
+        <NamedIndividual IRI="#PHARMAFORTE_(MALAYSIA)_SDN._BHD."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMALNumber"/>
+        <NamedIndividual IRI="#C07AA05110T100105"/>
+        <NamedIndividual IRI="#MAL19984685_AR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProductName"/>
+        <NamedIndividual IRI="#C07AA05110T100105"/>
+        <NamedIndividual IRI="#APO-PROPRANOLOL_TABLET_10MG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChemicalEntityValue"/>
+        <NamedIndividual IRI="#C07AA05110T100108"/>
+        <NamedIndividual IRI="#Propranolol_HCl_10_mg_Tablet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCompanyName"/>
+        <NamedIndividual IRI="#C07AA05110T100108"/>
+        <NamedIndividual IRI="#ASTRAZENECA_SDN._BHD."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMALNumber"/>
+        <NamedIndividual IRI="#C07AA05110T100108"/>
+        <NamedIndividual IRI="#MAL19870030_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProductName"/>
+        <NamedIndividual IRI="#C07AA05110T100108"/>
+        <NamedIndividual IRI="#INDERAL_TABLET_10MG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChemicalEntityValue"/>
+        <NamedIndividual IRI="#M01AE01000T100106"/>
+        <NamedIndividual IRI="#Ibuprofen_200_mg_Tablet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCompanyName"/>
+        <NamedIndividual IRI="#M01AE01000T100106"/>
+        <NamedIndividual IRI="#PHARMANIAGA_MANUFACTURING_BERHAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMALNumber"/>
+        <NamedIndividual IRI="#M01AE01000T100106"/>
+        <NamedIndividual IRI="#MAL20014523_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProductName"/>
+        <NamedIndividual IRI="#M01AE01000T100106"/>
+        <NamedIndividual IRI="#PHARMANIAGA_IBUPROFEN_TABLET_200_MG"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChemicalEntityValue"/>
+        <NamedIndividual IRI="#M01AE01000T100108"/>
+        <NamedIndividual IRI="#Ibuprofen_200_mg_Tablet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCompanyName"/>
+        <NamedIndividual IRI="#M01AE01000T100108"/>
+        <NamedIndividual IRI="#GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMALNumber"/>
+        <NamedIndividual IRI="#M01AE01000T100108"/>
+        <NamedIndividual IRI="#MAL19962557_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProductName"/>
+        <NamedIndividual IRI="#M01AE01000T100108"/>
+        <NamedIndividual IRI="#PANAMAX_TABLET"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasChemicalEntityValue"/>
+        <NamedIndividual IRI="#M01AE01000T100114"/>
+        <NamedIndividual IRI="#Ibuprofen_200_mg_Tablet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCompanyName"/>
+        <NamedIndividual IRI="#M01AE01000T100114"/>
+        <NamedIndividual IRI="#STERLING_DRUG_(MALAYA)_SDN._BHD."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMALNumber"/>
+        <NamedIndividual IRI="#M01AE01000T100114"/>
+        <NamedIndividual IRI="#MAL20012745_ACE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasProductName"/>
+        <NamedIndividual IRI="#M01AE01000T100114"/>
+        <NamedIndividual IRI="#PANAMAX_TABLET"/>
+    </ObjectPropertyAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,30 @@
+<script>
+    function loadXMLDoc() {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          myFunction(this);
+        }
+      };
+      xmlhttp.open("GET", "owl_xml_rendering.xml", true);
+      xmlhttp.send();
+    }
+    function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var x = xmlDoc.getElementsByTagName("NamedIndividual");
+      for (i = 0; i <x.length; i++) { 
+        table += "<tr><td>" +          
+        x[i].getElementsByTagName("NamedIndividual")[0].childNodes[0].nodeValue 
+        "</td><td>" 
+        ;
+      }
+      document.getElementById("demo").innerHTML = table;
+    }
+    </script>  
+
+      <br>   
+    <button type="button" onclick="loadXMLDoc()">Search substitute medicine</button>
+    <table id="demo"></table>
+    <br><br>
+  
