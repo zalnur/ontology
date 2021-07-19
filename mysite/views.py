@@ -1,4 +1,4 @@
-
+import os
 from .import db 
 from .models import User
 from . import utils
@@ -26,7 +26,7 @@ def home():
 def medicine():  
 
     gsparql = Graph()
-    gsparql.parse("medicineOntologyRDF.owl") # load ontology on page load
+    gsparql.parse(os.path.join(os.path.abspath(os.path.curdir) ,"medicineOntologyRDF.owl")) # load ontology on page load
 
     # if a new search query has been submitted
     if request.method == "POST":
@@ -42,35 +42,19 @@ def medicine():
         originalMedicine = defaultdict(list)
         originalMedicine = utils.generateData(originalMedicine, gsparql, singleM)
         print(originalMedicine)
+        # {'M01AE01000T100108': ['GLAXOSMITHKLINE_CONSUMER_HEALTHCARE_SDN._BHD.', 'Ibuprofen_200_mg_Tablet', 'MAL19962557_A']})
 
         # Retrieve medicines similar to the medicine queried
         sameAsList = defaultdict(list)
         for codes in rows: 
             sameAsList = utils.generateData(sameAsList, gsparql, singleM, codes)
+            # first run {'M01AE01000T100106': ['PHARMANIAGA_MANUFACTURING_BERHAD', 'Ibuprofen_200_mg_Tablet', 'MAL20014523_A']})
+            #second run {'M01AE01000T100106': ['PHARMANIAGA_MANUFACTURING_BERHAD', 'Ibuprofen_200_mg_Tablet', 'MAL20014523_A'], 'M01AE01000T100114': ['STERLING_DRUG_(MALAYA)_SDN._BHD.', 'Ibuprofen_200_mg_Tablet', 'MAL20012745_ACE']}
             print(sameAsList)
 
         return render_template("medicine.html", user=current_user, sameAs=sameAsList, original=originalMedicine)
 
     return render_template("medicine.html", user=current_user, sameAs=defaultdict(list), original=defaultdict(list))
-
-
-### WORK IN PROGRESS ###
-# v = HTMLVisualizer(g) # => instantiate the visualization object
-# htmlpath = v.build()
-# print(htmlpath[7:])
-# #print(v.highlight_code(g)["pygments_code_css"])
-# # items = parseXML('medicineOntology.xml')
-
-# # #display exrtacted items
-# # for item in items:
-# #     for k in sorted(item, key=item.get, reverse=True):
-# #         print ("{}{:>20}".format(k, item[k].decode('utf-8')))
-
-# if request.method == "POST":
-#     return render_template("medicine.html", user=current_user, Ontologyview=htmlpath[7:])
-
-
-
 
  
 
